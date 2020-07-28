@@ -61,7 +61,7 @@
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    background: #fff;
+    background: #ffa500;
     font-size: 36px;
     line-height: 135px;
     text-align: center;
@@ -70,10 +70,10 @@
     left: 5%;
   }
   #circle.progress.blue .progress-bar{
-    border-color: #40803E;
+    border-color: #ffa500;
   }
   #circle.progress.blue .progress-left .progress-bar{
-    animation: loading-2 1.0s linear forwards 1.05s;
+    animation: loading-2 1.0s linear forwards 5.05s;
   }
   /* Lado derecho de 0% a 50%*/
   @keyframes loading-1{
@@ -96,7 +96,7 @@
   }
 
   #bar {
-    color: #049dff;
+    color: #ffa500;
   }
 
   @media only screen and (max-width: 990px){
@@ -106,8 +106,8 @@
   .progress .progress-bar {
     width: 0;
     animation: progress 2.0s ease-in-out forwards;
-  } 
-  
+  }
+
   @keyframes progress {
     from {
       width: 0;

@@ -99,7 +99,7 @@ hr { border-top: 1px solid #e6ecf5; }
 
 .bg-primary { background-color: #7774e7 !important; }
 
-.bg-info { background-color: #40803E !important; }
+.bg-info { background-color: #ffa500 !important; }
 
 .bg-success { background-color: #37c936 !important; }
 
@@ -2904,7 +2904,7 @@ label.success { color: #37c936; }
 
 .tag-success { background-color: #37c936; color: #ffffff; }
 
-.tag-info { background-color: #40803E; color: #ffffff; }
+.tag-info { background-color: #ffa500; color: #ffffff; }
 
 .tag-warning { background-color: #ffcc00; color: #ffffff; }
 
