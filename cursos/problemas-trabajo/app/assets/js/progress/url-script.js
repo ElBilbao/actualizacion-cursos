@@ -248,6 +248,7 @@ function getFiles() {
             6: "modulo2-datos-3.html",
             7: "modulo2-metas-1.html",
             8: "modulo2-metas-2.html",
+            9: "modulo2-quiz-1.html",
         },
         modulo3: {
             1: "modulo3-1.html",
@@ -260,6 +261,7 @@ function getFiles() {
             8: "modulo3-analizar-1.html",
             9: "modulo3-analizar-2.html",
             10: "modulo3-analizar-3.html",
+            11: "modulo3-quiz-1.html",
         },
         modulo4: {
             1: "modulo4-1.html",
@@ -281,6 +283,7 @@ function getFiles() {
             17: "modulo4-plan-2.html",
             18: "modulo4-plan-3.html",
             19: "modulo4-presentar-1.html",
+            20: "modulo4-quiz-1.html",
         },
         modulo5: {
             1: "modulo5-1.html",
@@ -291,6 +294,7 @@ function getFiles() {
             6: "modulo5-finalizar-2.html",
             7: "modulo5-finalizar-3.html",
             8: "modulo5-implementar-1.html",
+            9: "modulo5-quiz-1.html",
         },
         modulo6: {
             1: "modulo6-1.html",
@@ -312,6 +316,7 @@ function getFiles() {
             17: "modulo6-crear-4.html",
             18: "modulo6-crear-5.html",
             19: "modulo6-crear-6.html",
+            20: "modulo6-quiz-1.html",
         },
     };
 
