@@ -23,6 +23,8 @@
     <link href="../../assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="../../assets/css/animate.min.css" rel="stylesheet">
     <link href="../../assets/css/app.css" rel="stylesheet">
+    <link href="../../assets/css/progress.css" rel="stylesheet">
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet">
 
 </head>
 
@@ -223,7 +225,7 @@
                                 <li>Se han tenido las primeras reuniones con el equipo.</li>
                                 <li>Se ha seleccionado en equipo un problema para resolver.</li>
                               </ol>
-                              <p><i><b>¡Felicidades!</b> Has concluido con el material del <b>Módulo 1</b>. Te recordamos visitar el apartado de <b>Recursos de apoyo</b> presionando esta opción directamente en la barra izquierda. Para avanzar al siguiente módulo, presiona sobre el botón del M ódulo 2, ubicado bajo la barra izquierda.</i></p>
+                              <p><b>¡Felicidades!</b> Has concluido con el material del <b>Módulo 1</b>.</p>
                             </div>
                         </div>
                     </div>
@@ -231,10 +233,37 @@
                     <nav aria-label="..." style="text-align: center">
                         <ul class="pagination justify-content-center">
                             <li class="page-item">
-                                <a class="button" href="../modulo2/modulo2-1.html">Siguiente Modulo</a>
+                                <a class="button" href="../temario/temario.html">ADELANTE</a>
                             </li>
                         </ul>
                     </nav>
+
+                    <!--Widgets de avance de módulo y general-->
+                    <br>
+                    <div class="card widget-feed">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h1 class="feed-title tag tag-info">Módulo 1</h1>
+                                <h3 class="feed-subtitle">Tu Progreso</h3>
+                                <div class="progress" style="height: 20px;" id="bar">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="25"
+                                        aria-valuemin="0" aria-valuemax="100" style="max-width: 71%">71%</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="row">
+                                    <div class="col">
+                                        <div id="circlecontainer"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col text-center">
+                                        <h3 class="feed-subtitle">Progreso General del Curso</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
                 <!-- Content Wrapper END -->
@@ -296,7 +325,10 @@
     <script src="../../assets/vendors/PACE/pace.min.js"></script>
     <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
 
+    <!-- Progress plugins -->
     <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+    <script src="../../assets/js/progress/url-script.js"></script>
 
     <!-- endbuild -->
 
